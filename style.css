@@ -12,10 +12,6 @@
 .boton-login{
     margin-right: 10px;
 }
-.presentacion{
-    width: 100%;
-    height: 100%;
-}
 
 h1,h2, p{
     color:#fdffff;
@@ -28,7 +24,7 @@ h1,h2, p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 380px;
+    padding: 0px 400px;
 }
 
 .informacion-personal{
@@ -41,4 +37,22 @@ h1,h2, p{
 
 ::-webkit-scrollbar {
     display: none;
+}
+/*corregir*/
+@media only screen and (max-width: 1070px){
+    .presentacion{
+        padding: 0px 200px;
+    }
+}
+
+@media only screen and (max-width: 594px){
+    .presentacion{
+        padding: 0px 100px;
+    }
+}
+
+@media only screen and (max-width: 369px){
+    .presentacion{
+        padding: 0px 0px;
+    }
 }
