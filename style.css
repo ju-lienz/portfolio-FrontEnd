@@ -27,17 +27,22 @@ h1,h2, p{
     padding: 0px 400px;
 }
 
-.informacion-personal{
-    height: 100vh;
-}
-
-.informacion-personal{
-    background-color: red;
-}
-
 ::-webkit-scrollbar {
     display: none;
 }
+
+.educacion{
+    height: 100vh;
+    background-color: #fdffff;
+}
+.titulo-educacion{
+    color: black;
+}
+
+.logo-unse{
+    width: 250px;
+}
+
 /*corregir*/
 @media only screen and (max-width: 1070px){
     .presentacion{
