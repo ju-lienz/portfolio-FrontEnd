@@ -36,13 +36,30 @@ h1,h2, p{
     background-color: #fdffff;
 }
 .titulo-educacion{
-    color: black;
+    color: #212427;
+    padding: 1rem;
 }
 
-.logo-unse{
-    width: 250px;
+.informacion-academia{
+    text-align: left;
+    color: #212427;
+}
+.card{
+    margin: 0.5rem;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.logo-educacion{
+    flex-basis: 15%;
+    margin-right: 2.5%;
+}
+
+.logo-instituciones{
+    width: 15rem;
+}
 /*corregir*/
 @media only screen and (max-width: 1070px){
     .presentacion{
