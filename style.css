@@ -19,7 +19,7 @@ h1,h2, p{
 }
 .presentacion{
     height: 90vh;
-    background-image:url("img/banner-2.jpg");
+    background-image:url("img/banner.jpg");
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -43,6 +43,7 @@ h1,h2, p{
 .informacion-academia{
     text-align: left;
     color: #212427;
+    margin-bottom: 1px;
 }
 .card{
     margin: 0.5rem;
@@ -60,7 +61,17 @@ h1,h2, p{
 .logo-instituciones{
     width: 15rem;
 }
-/*corregir*/
+
+img.logo-instituciones.codearock-logo{
+    border-radius: 15px;
+}
+
+.detalle-academia{
+    text-align: left;
+    color: #212427;
+    font-size: 0.8rem;
+}
+
 @media only screen and (max-width: 1070px){
     .presentacion{
         padding: 0px 200px;
